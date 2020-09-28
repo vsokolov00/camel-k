@@ -38,8 +38,8 @@ require (
 	go.uber.org/multierr v1.5.0
 	gopkg.in/inf.v0 v0.9.1
 	gopkg.in/yaml.v2 v2.3.0
-	k8s.io/api v0.18.2
-	k8s.io/apimachinery v0.18.2
+	k8s.io/api v0.18.8
+	k8s.io/apimachinery v0.18.8
 	k8s.io/client-go v12.0.0+incompatible
 	k8s.io/gengo v0.0.0-20200205140755-e0e292d8aa12
 	knative.dev/eventing v0.15.0
