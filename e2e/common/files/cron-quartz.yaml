@@ -30,4 +30,4 @@
       - to: 
           uri: "log:info"
           parameters:
-            show-all: "false"
+          show-all: "false"

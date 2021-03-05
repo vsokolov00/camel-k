@@ -15,12 +15,10 @@
 # limitations under the License.
 # ---------------------------------------------------------------------------
 
-- route:
-    id: "yaml"
-    from: 
-      uri: "cron:tab"
-      parameters:
-        schedule: "0/1+*+*+*+*+?"
+- from: 
+    uri: "cron:tab"
+    parameters:
+      schedule: "0/1+*+*+*+*+?"
     steps:
       - set-header:
           name: "m"
